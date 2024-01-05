@@ -62,7 +62,7 @@ function displayPhotos() {
 }
 
 async function getPhotos() {
-	const imageNum = initialLoad ? 3 : 10;
+	const imageNum = initialLoad ? 10 : 30;
 	const API_KEY = 'XqBcjJGDQ9MjEoU1XpTO3YMz6PmyesL4Ywey029IpWQ';
 	const API_URL = `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&count=${imageNum}`;
 
