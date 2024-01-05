@@ -1,0 +1,1 @@
+I developed an infinite scroll application using the Unsplash API. The key feature is dynamic loading of images as users scroll to the bottom of the page, with a placeholder implemented during the loading process.
